@@ -1,0 +1,63 @@
+div#trainer {
+    color:darkmagenta;
+    border-color : red green blue yellow;
+    border-width: 5px 10px 15px 20px;
+    border-style: solid dashed;
+
+}
+div#trainee {
+    background-color:fuchsia
+}
+
+.retired {
+    color: red;
+  /*  background-color: cornflowerblue; */
+    text-align: center;
+}
+.bench
+{
+    text-align: right;
+    background-color: black;
+
+}
+h1.active {
+    color: green;
+  /*  background-color: cornflowerblue; */
+    text-align: center;
+}
+
+p {
+    color: yellow;
+    font-family:'Courier New', Courier, monospace;
+     font-style:italic; font-size:12px;
+}
+body {
+    background-color:darkgoldenrod;
+    background-image:url('flower.jfif');
+    background-repeat: no-repeat;
+}
+table {
+    border: 1px solid black; 
+    width:100%;
+     height:50%; 
+     vertical-align:bottom;
+      padding:5px;
+}
+A:link {
+    text-decoration: underline; 
+    color: yellow;
+}
+A:visited {
+    text-decoration: underline; 
+    color: red;
+}
+A:hover {
+    text-decoration: underline; 
+    color: green;
+}
+ul{ list-style-image: url('flower.jfif');}
+h2 {
+    font-family:courier,verdana,geneva;   
+    font-size : 170%;       
+    color : grey;
+}
